@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  #game {
+    position: relative;
+  }
+  
+  canvas {
+    border: 2px solid #000;
+    background-color: #87CEEB; /* Sky blue background */
+  }
+  
+  #scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
